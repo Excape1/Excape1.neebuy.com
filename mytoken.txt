@@ -1,0 +1,12 @@
+import telebot
+
+# Вставьте ваш токен здесь
+TOKEN = '7113713054:AAHo_K-nhgQ6pf1IXdWuXn2W8ToaxsAL808'
+
+# Создание экземпляра бота
+bot = telebot.TeleBot(TOKEN)
+
+# Напишите здесь ваш код для обработки команд и сообщений бота
+
+# Запуск бота
+bot.polling()
