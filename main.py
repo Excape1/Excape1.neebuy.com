@@ -3,11 +3,9 @@ import telebot
 import webbrowser
 from telebot import types
 
-# Считываю свой токен из файла mytoken.txt, в твоем случае это будет не нужно
-# Удали 6 и 7 строчки и вместо переменной mytoken в 10 строчке напиши свой токен
-# Пример: bot = telebot.TeleBot('62732:RyJidSDIdi...')
-file = open('./mytoken.txt')
-mytoken = file.read()
+# Жестко закодированный токен
+mytoken = '7113713054:AAHo_K-nhgQ6pf1IXdWuXn2W8ToaxsAL808'
+
 # Передаем сюда токен, который получили от FatherBot
 bot = telebot.TeleBot(mytoken)
 # Варианты ответов пользователю, если тот ввел непонятное боту сообщение
